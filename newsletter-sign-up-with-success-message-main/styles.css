@@ -1,8 +1,126 @@
-.attribution {
-  font-size: 11px;
+body {
+  background-color: rgb(46, 46, 90);
+  color: black;
+}
+
+div {
+  background-color: aliceblue;
+  margin: auto;
+  max-width: 900px;
+  max-height: 700px;
+  border-radius: 40px;
+  padding: 8px 0px 18px 100px;
+}
+.img {
+  max-width: 100px;
+  max-height: 250px;
+  border-radius: 15px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.information {
+  font-size: 1.1em;
+}
+.information h1 {
+  font-size: 1.5em;
+}
+
+.content_field input {
+  border-radius: 10px;
+  height: 50px;
+  width: 350px;
+  border-color: black;
+  border-style: hidden;
+  font-size: 20px;
+  background-color: beige;
+}
+.content_field button {
+  background-color: rgb(46, 46, 90);
+  color: white;
+  text-decoration: none;
+  border-style: dotted;
+  border-radius: 10px;
+  width: 350px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.content_field button:hover {
+  color: white;
+  background-color: #f1763d;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.content_field p {
+  margin-left: 210px;
+}
+
+.success {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
   text-align: center;
 }
 
+.success-content {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success h2 {
+  font-size: 24px;
+}
+
+.success p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.success button {
+  background-color: rgb(46, 46, 90);
+  color: white;
+  text-decoration: none;
+  border-style: dotted;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  border-style: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.success button:hover {
+  background-color: #f1763d;
+  color: white;
+  text-decoration: none;
+  border-style: dotted;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  border-style: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  color: wheat;
 }

@@ -17,31 +17,26 @@
       <div>
         <section class="information">
           <div class="img">
-            <img
-              src="./assets/images/illustration-sign-up-desktop.svg"
-              alt=""
-            />
+            <img src="/assets/images/illustration-sign-up-desktop.svg" alt="" />
           </div>
           <article class="info_product">
             <h1>Stay updated!</h1>
             <p>Join 60,000+ product managers receiving monthly updates on:</p>
             <p>
-              <img src="./assets/images/icon-list.svg" alt="icon-list" />Product
+              <img src="/assets/images/icon-list.svg" alt="icon-list" /> Product
               discovery and building what matters
             </p>
             <p>
-              <img src="./assets/images/icon-list.svg" alt="icon-list" />
+              <img src="/assets/images/icon-list.svg" alt="icon-list" />
               Measuring to ensure updates are a success
             </p>
             <p>
-              <img src="./assets/images/icon-list.svg" alt="icon-list" />
-              And much more!
+              <img src="/assets/images/icon-list.svg" alt="" /> And much more!
             </p>
           </article>
         </section>
 
-        <!-- Sign-up form start -->
-        <section class="content-fields">
+        <section class="content_field">
           <strong>Email address</strong>
           <p id="error_message"></p>
           <input
@@ -50,31 +45,30 @@
             id="email"
             placeholder="email@company.com"
           />
-          <button type="submit">Subscribe to monthly newsletter</button>
+          <br /><br /><br />
+          <button type="submit" onclick="valideForm()">
+            Subscribe to monthly newsletter
+          </button>
         </section>
-        <!-- Sign-up form end -->
 
-        <!-- Success message start -->
-        <section class="success" id="" success_message>
-          <div id="success-content">
-            <img src="./assets/images/icon-success.svg" alt="" />
+        <section class="success" id="success_message">
+          <div class="success-content">
+            <img src="/assets/images/icon-success.svg" alt="" />
             <h2>Thanks for subscribing!</h2>
             <p>
               A confirmation email has been sent to
               <strong id="email_placeholder"></strong>. Please open it and click
               the button inside to confirm your subscription.
             </p>
-            <button>Dismiss message</button>
+            <button href="index.html">Dismiss message</button>
           </div>
         </section>
-        <!-- Success message end -->
       </div>
 
       <footer class="attribution">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        <a href="https://www.crio.do" target="_blank">CrioDo</a>. Coded by
+        <a href="https://github.com/imketan1610" target="_blank">Ketan</a>.
       </footer>
     </main>
   </body>
