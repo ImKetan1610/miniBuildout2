@@ -50,13 +50,22 @@
             id="email"
             placeholder="email@company.com"
           />
-          <button type="submit"></button>
+          <button type="submit">Subscribe to monthly newsletter</button>
         </section>
         <!-- Sign-up form end -->
 
         <!-- Success message start -->
         <section class="success" id="" success_message>
-          <div id="success-content">Subscribe to monthly newsletter</div>
+          <div id="success-content">
+            <img src="./assets/images/icon-success.svg" alt="" />
+            <h2>Thanks for subscribing!</h2>
+            <p>
+              A confirmation email has been sent to
+              <strong id="email_placeholder"></strong>. Please open it and click
+              the button inside to confirm your subscription.
+            </p>
+            <button>Dismiss message</button>
+          </div>
         </section>
         <!-- Success message end -->
       </div>
@@ -68,9 +77,5 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </footer>
     </main>
-
-    Thanks for subscribing! A confirmation email has been sent to
-    ash@loremcompany.com. Please open it and click the button inside to confirm
-    your subscription. Dismiss message
   </body>
 </html>
