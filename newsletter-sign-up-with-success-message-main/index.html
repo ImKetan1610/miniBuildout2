@@ -1,75 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-    <title>Newsletter sign-up form with success message</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <main>
-      <div>
-        <section class="information">
-          <div class="img">
-            <img src="/assets/images/illustration-sign-up-desktop.svg" alt="" />
-          </div>
-          <article class="info_product">
-            <h1>Stay updated!</h1>
-            <p>Join 60,000+ product managers receiving monthly updates on:</p>
-            <p>
-              <img src="/assets/images/icon-list.svg" alt="icon-list" /> Product
-              discovery and building what matters
-            </p>
-            <p>
-              <img src="/assets/images/icon-list.svg" alt="icon-list" />
-              Measuring to ensure updates are a success
-            </p>
-            <p>
-              <img src="/assets/images/icon-list.svg" alt="" /> And much more!
-            </p>
-          </article>
-        </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Newsletter sign-up form with success message</title>
 
-        <section class="content_field">
-          <strong>Email address</strong>
-          <p id="error_message"></p>
-          <input
-            type="email"
-            name=""
-            id="email"
-            placeholder="email@company.com"
-          />
-          <br /><br /><br />
-          <button type="submit" onclick="valideForm()">
-            Subscribe to monthly newsletter
-          </button>
-        </section>
+</head>
+<body>
 
-        <section class="success" id="success_message">
-          <div class="success-content">
-            <img src="/assets/images/icon-success.svg" alt="" />
-            <h2>Thanks for subscribing!</h2>
-            <p>
-              A confirmation email has been sent to
-              <strong id="email_placeholder"></strong>. Please open it and click
-              the button inside to confirm your subscription.
-            </p>
-            <button href="index.html">Dismiss message</button>
-          </div>
-        </section>
+  <!-- Sign-up form start -->
+  <main class="main">
+    <div class="sign-up-form first-card">
+      <div class="left-side text-div">
+        <h1 class="header">Stay updated!</h1>
+        <p class="text-p">
+          Join 60,000+ product managers receiving monthly updates on:
+
+          <ul>
+            <li><img src="./assets/images/icon-list.svg" alt="list icon" class="list-icon"> Product discovery and building what matters
+            </li>
+            <li><img src="./assets/images/icon-list.svg" alt="list icon" class="list-icon"> Measuring to ensure updates are a success</li>
+            <li><img src="./assets/images/icon-list.svg" alt="list icon" class="list-icon"> And much more!</li>
+          </ul>
+        </p>
+        <div class="subscribe-input-div">
+          <form action="success.html" id="form">
+            <label for="email">Email Address</label>
+            <em></em><br>
+            <input type="email" name="email" id="email" placeholder="email@company.com"><br>
+            <button class="sub-btn">Subscribe to monthly newsletter</button>
+          </form>
+
+        </div>
       </div>
+      <div class="right-side img-div">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="desktop main image" class="desktop-img">
+        <img src="./assets/images/illustration-sign-up-mobile.svg" alt="mobile main image" class="mobile-img">
+      </div>
+    </div>
+    <!-- Sign-up form end -->
 
-      <footer class="attribution">
-        Challenge by
-        <a href="https://www.crio.do" target="_blank">CrioDo</a>. Coded by
-        <a href="https://github.com/imketan1610" target="_blank">Ketan</a>.
-      </footer>
-    </main>
-  </body>
+
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://crio.do" target="_blank">CrioDo</a>. 
+      Coded by <a href="#">Ketan</a>.
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+
+</body>
 </html>
