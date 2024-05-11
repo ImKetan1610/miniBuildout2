@@ -115,3 +115,42 @@ p.error {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 600px) {
+  .input {
+    margin-bottom: 40px;
+  }
+
+  input {
+    font-size: 18px;
+    width: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  .content {
+    background: hsl(0, 0%, 100%);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom-right-radius: 30%;
+    position: relative;
+  }
+
+  .result h1 {
+    font-size: 45px;
+    font-style: italic;
+  }
+
+  p.error {
+    font-size: 10px;
+  }
+
+  button {
+    right: 40%;
+  }
+
+  .result {
+    margin-top: 40px;
+  }
+}
