@@ -96,7 +96,7 @@ html {
   .card {
     padding: 10px;
   }
-  .addon__card {
+  .addon_card {
     min-height: 90px;
   }
 }
@@ -117,18 +117,18 @@ html {
   padding-bottom: 2px;
 }
 
-.mini__title {
+.mini_title {
   color: var(--White);
   font-weight: 500;
   text-transform: uppercase;
 }
 
-.card__price {
+.card_price {
   color: var(--Cool-gray);
   font-weight: 500;
 }
 
-.card__name {
+.card_name {
   color: var(--Marine-blue);
   font-weight: 700;
   text-transform: capitalize;
@@ -136,7 +136,7 @@ html {
   margin-bottom: 2px;
 }
 
-.card__description {
+.card_description {
   color: var(--Cool-gray);
   font-weight: 500;
 }
@@ -193,6 +193,19 @@ html {
   }
 }
 
+.sidebar {
+  width: 100%;
+  border-radius: 10px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background: url("./assets/images/bg-sidebar-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 30px 20px;
+  margin-right: auto;
+}
+
 .indicator {
   display: flex;
   align-items: center;
@@ -241,7 +254,7 @@ html {
   }
 }
 
-.container {
+.steps_container {
   grid-column-start: 2;
   grid-column-end: 3;
   padding-top: 25px;
@@ -249,11 +262,11 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 
 @media (max-width: 768px) {
-  .container {
+  .steps_container {
     padding: 0;
     align-items: center;
   }
@@ -267,8 +280,8 @@ html {
 }
 
 form {
-  border: 1px solid red;
-  background-color: red;
+  /* border: 1px solid red; */
+  /* background-color: red; */
 }
 
 .list {
