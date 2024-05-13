@@ -10,7 +10,7 @@
 
 // import data from "./data.json";
 // console.log(data);
-
+let data;
 function max(data) {
   return Math.max(...data.map((i) => i.amount));
 }
@@ -24,7 +24,7 @@ function findHeight(amount, maxAmount) {
 }
 
 function isToday(index) {
-  let dayIndex = new Date().getDay() - 1; 
+  let dayIndex = new Date().getDay() - 1;
   if (dayIndex === -1) return index === 6;
 
   return index === dayIndex;
@@ -57,7 +57,7 @@ window.addEventListener("DOMContentLoaded", () => {
   fetch("./data.json")
     .then((response) => response.json())
     .then((data) => {
-    //   console.log(data);
+      console.log(data);
       barsContainerElem.innerHTML = renderBars(data);
     });
 });
