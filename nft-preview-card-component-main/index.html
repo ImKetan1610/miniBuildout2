@@ -1,33 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main class="card">
+      <a href="#" aria-label="equilibrium image" class="card__images">
+        <img
+          src="./images/image-equilibrium.jpg"
+          alt="an svg of equilibrium"
+          id="equilibrium"
+        />
+        <div class="card__images-layer">
+          <img
+            src="./images/icon-view.svg"
+            alt="an icon of eye/view"
+            id="view"
+          />
+        </div>
+      </a>
+      <a href="#" aria-label="equilibrium title" class="card__title">
+        <h1>Equilibrium #3429</h1>
+      </a>
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+      <div class="card__time">
+        <div class="card__time-left">
+          <img src="./images/icon-ethereum.svg" alt="an svg of ethereum" />
+          <span>0.041 ETH</span>
+        </div>
+        <div class="card__time-right">
+          <img src="./images/icon-clock.svg" alt="an icon of clock" />
+          <span>3 days left</span>
+        </div>
+      </div>
+      <hr />
+      <div class="card__creator">
+        <img
+          src="https://media.licdn.com/dms/image/D5603AQHmisevs6V-Wg/profile-displayphoto-shrink_200_200/0/1711565017432?e=2147483647&v=beta&t=2gxdXF049G8KQ53xOdouFjL_DKFruEzC2XH5LmLtem4"
+          alt="a guy's portrait"
+        />
+        <p>
+          Creation of
+          <a
+            href="https://www.github.com/imketan1610"
+            target="_blank"
+            aria-label="Ketan's profile"
+            >Ketan Makode</a
+          >
+        </p>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.crio.do" target="_blank">Crio.Do</a>. Coded by
+      <a href="https://www.github.com/imketan1610" target="_blank"
+        >Ketan Makode</a
+      >.
+    </footer>
+  </body>
 </html>
