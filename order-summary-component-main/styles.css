@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  /* min-height: 90vh; */
+  font-family: "Red Hat Display", sans-serif;
+  background: url("./images/pattern-background-desktop.svg"), var(--pale-blue);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 60vh;
+  display: grid;
+  place-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+}
+
+/* card styles */
+.container {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 60%;
+  border-radius: 15px;
+}
+
+.img-container > img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* card body styles */
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7% 4%;
+}
+
+.heading {
+  margin: 5px;
+  color: var(--dark-blue);
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.summary-para {
+  text-align: center;
+  color: var(--desaturated-blue);
+  line-height: 1.2;
+  font-size: 0.95rem;
+  font-weight: normal;
+  padding: 0px 10%;
+  /* opacity: 60%; */
+}
+
+/* susbcription plan div styles */
+.plan-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background-color: white;
+  gap: 1rem;
+  background-color: var(--very-pale-blue);
+}
+
+.plan-img-container {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-left: 5px;
+}
+
+.plan-img-container > img {
+  width: 40px;
+}
+
+.plan-text {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding: 8px 0px;
+  margin-left: -10px;
+}
+
+.plan-text > h3 {
+  margin: 2px 0px;
+}
+
+.plan-text > p {
+  margin: 0;
+}
+
+.change-link {
+  margin-right: 5px;
+}
+
+.change-link > a {
+  color: var(--bright-blue);
+  font-weight: 700;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* proceed button style */
+.proceed-btn {
+  width: 17rem;
+  /* width: 80%; */
+  background-color: var(--bright-blue);
+  box-shadow: 0 15px 20px 0 hsla(245, 75%, 52%, 0.25);
+  cursor: pointer;
+  border-style: none;
+  color: white;
+  margin: 25px 1.5rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.proceed-btn:hover {
+  background-color: var(--desaturated-blue);
+}
+
+/* cancel order button */
+.cancel-order {
+  margin-bottom: 15px;
+  color: var(--desaturated-blue);
+  transition: color 0.2s ease;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cancel-order:hover {
+  color: var(--dark-blue);
+}
+
+/* footer styles */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    background: url("./images/pattern-background-mobile.svg"), var(--pale-blue);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .container {
+    width: 90%; /* Adjust width to fit mobile screens */
+  }
+
+  .plan-div {
+    grid-template-columns: repeat(
+      4,
+      1fr
+    ); /* Adjust plan div layout for better mobile view */
+  }
+
+  .change-link {
+    margin-right: 0; /* Reset margin */
+  }
+
+  .proceed-btn {
+    /* max-width: 80%; */
+    width: 80%;
+    margin: 15px auto; /* Center align and adjust margin */
+  }
+}
