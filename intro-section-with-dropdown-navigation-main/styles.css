@@ -114,7 +114,7 @@ nav .nav-links {
   width: 100%;
   padding: 0.5rem 1.5rem;
   display: block;
-  transition: all 3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .nav-link > a:hover {
@@ -160,6 +160,14 @@ nav .nav-links {
 
 nav .registration {
   display: none;
+}
+
+/* Main */
+
+main {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 1.5rem;
 }
 
 /* footer */
