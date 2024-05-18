@@ -1,39 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <header>
+      <a href="#" aria-label="logo"
+        ><img src="./images/logo.svg" alt="snap's logo" class="logo" />
+      </a>
+      <div class="menu">
+        <img
+          src="./images/icon-menu.svg"
+          alt="hamburger-icon menu-open"
+          class="open-menu"
+        />
+        <img
+          src="./images/icon-close-menu.svg"
+          alt="hamburger-icon menu-close"
+          class="close-menu"
+        />
+      </div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-link">
+            <a href="#" aria-label="features" class="drop-down">
+              <span>Features</span>
+              <img
+                src="./images/icon-arrow-up.svg"
+                alt="arrow up"
+                class="arrow-up"
+              /><img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow down"
+                class="arrow-down"
+              />
+            </a>
+            <ul class="dropdown-list">
+              <li class="dropdown-link">
+                <a href="#" aria-label="todo-list">
+                  <img src="./images/icon-todo.svg" alt="todo-list icon" />
+                  <span>Todo List</span>
+                </a>
+              </li>
+              <li class="dropdown-link">
+                <a href="#" aria-label="calender">
+                  <img src="./images/icon-calendar.svg" alt="calender icon" />
+                  <span>Calender</span>
+                </a>
+              </li>
+              <li class="dropdown-link">
+                <a href="#" aria-label="reminder">
+                  <img src="./images/icon-reminders.svg" alt="reminder icon" />
+                  <span>Reminders</span>
+                </a>
+              </li>
+              <li class="dropdown-link">
+                <a href="#" aria-label="planning">
+                  <img src="./images/icon-planning.svg" alt="planning icon" />
+                  <span>Planning</span>
+                </a>
+              </li>
+            </ul>
+          </li>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Features
-  Company
-  Careers
-  About
-
-  Login
-  Register
-
-  Make remote work
-
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
-
-  Learn more
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+          <li class="nav-link">
+            <a href="#" aria-label="company" class="dropdown">
+              <span>Company</span>
+              <img
+                src="./images/icon-arrow-up.svg"
+                alt="arrow up"
+                class="arrow-up"
+              /><img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow down"
+                class="arrow-down"
+              />
+            </a>
+            <ul class="dropdown-list">
+              <li class="dropdown-link">
+                <a href="#" aria-label="history">History</a>
+              </li>
+              <li class="dropdown-link">
+                <a href="#" aria-label="our-team">Our Team</a>
+              </li>
+              <li class="dropdown-link">
+                <a href="#" aria-label="blog">Blog</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-link"><a href="#" aria-label="careers">Careers</a></li>
+          <li class="nav-link"><a href="#" aria-label="about">About</a></li>
+        </ul>
+        <div class="registration">
+          <button>Login</button>
+          <button>Register</button>
+        </div>
+      </nav>
+    </header>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://crio.do" target="_blank">Crio.do</a>. Coded by
+      <a href="https://www.github.com/imketan1610">Ketan</a>.
+    </footer>
+  </body>
 </html>
