@@ -83,11 +83,11 @@ button > img {
 }
 
 button:hover {
-  background-color: hsl(158, 45%, 20%);
+  background-color: rgb(60, 128, 103);
 }
 
 button:active {
-  background-color: hsl(158, 45%, 20%);
+  background-color: rgb(60, 128, 103);
 }
 
 .cart-shoping {
