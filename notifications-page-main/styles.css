@@ -104,6 +104,10 @@ main ul li .notification-infos .notification-link-group {
   color: var(--blue);
 }
 
+.notification-text-private-message {
+  display: none;
+}
+
 main ul li .notification-infos .notification-text-private-message {
   margin-top: 0.5rem;
   padding: 1rem;

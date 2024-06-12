@@ -5,6 +5,9 @@ let main = document.getElementById("list");
 data.map((ele, index) => {
   let li = document.createElement("li");
   li.className = "new-notification";
+  if(index===3){
+    li.id = "private"
+  }
 
   let image = document.createElement("img");
   image.src = ele.img;
@@ -15,7 +18,7 @@ data.map((ele, index) => {
   let p1 = document.createElement("p");
   p1.className = "notification-text";
 
-  p1.innerHTML = `<a href="" class="profile-link">${ele.info.name}</a> ${ele.info.action} <a href="" class="notification-link-post">${ele.info.postName}</a>
+  p1.innerHTML = `<a href="#" class="profile-link">${ele.info.name}</a> ${ele.info.action} <a href="#" class="notification-link-post">${ele.info.postName}</a>
     <span class="notification-dot"></span>`;
 
   let p2 = document.createElement("p");

@@ -29,3 +29,8 @@ markAllButton.addEventListener("click", () => {
     notificationDots[index].style.display = "none";
   }
 });
+
+let private = document.getElementById("private")
+private.addEventListener("click",()=>{
+  document.querySelector(".notification-text-private-message").style.display = "block"
+})
