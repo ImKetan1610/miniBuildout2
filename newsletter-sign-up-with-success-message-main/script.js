@@ -13,10 +13,10 @@ form.addEventListener("submit", function (event) {
     window.location.href = `success.html?email=${encodedEmail}`;
   } else {
     const errorEm = document.querySelector("em");
-    errorEm.textContent = "Valid email required.";
-    emailInput.style.border = "1px solid var(--primary-clr-Tomato)";
-    emailInput.style.color = "var(--primary-clr-Tomato)";
-    emailInput.style.backgroundColor = "hsla(4, 85%, 79%, 0.644)";
+    errorEm.innerHTML = "Valid email required.";
+    emailInput.style.border = "1px solid rgb(255, 99, 71)";
+    emailInput.style.color = "rgb(255, 99, 71)";
+    emailInput.style.backgroundColor = "rgba(255,99,71,0.6)";
   }
 });
 
