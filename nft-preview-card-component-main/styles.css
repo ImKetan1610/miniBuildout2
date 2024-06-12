@@ -56,7 +56,7 @@ body {
   transition: all 0.3s linear;
 }
 .card__images:hover .card__images-layer {
-  background: hsla(178, 100%, 50%, 0.4);
+  background: rgba(0, 0, 0, 0);
 }
 .card__images:hover #view {
   opacity: 1;
