@@ -10,7 +10,7 @@
 
 body {
   font-family: "Lexend Deca", sans-serif;
-  background-color: hsl(0, 0%, 95%);
+  background-color:rgb(242, 242, 242);
   font-size: 15px;
   overflow: hidden;
   display: flex;
@@ -37,16 +37,16 @@ article {
 }
 
 article.sedan {
-  background-color: hsl(31, 77%, 52%);
+  background-color: rgb(229, 124, 34);
   border-radius: 7px 0 0 7px;
 }
 
 article.suv {
-  background-color: hsl(184, 100%, 22%);
+  background-color: rgb(0, 39, 95);
 }
 
 article.luxury {
-  background-color: hsl(179, 100%, 13%);
+  background-color: rgb(11, 32, 56);
   border-radius: 0 7px 7px 0;
 }
 
@@ -58,7 +58,7 @@ h1 {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  color: hsl(0, 0%, 95%);
+  color: rgb(242, 242, 242);
   margin-bottom: 1.5rem;
 }
 
@@ -77,30 +77,30 @@ button {
   width: 146px;
   border-radius: 25px;
   outline: none;
-  border: 2px solid hsl(0, 0%, 95%);
+  border: 2px solid rgb(242, 242, 242);
   font-family: inherit;
   transition: all 0.2s ease-in-out;
   bottom: 42px;
 }
 
 .sedan button {
-  background: hsl(0, 0%, 95%);
+  background: rgb(242, 242, 242);
   color: hsl(31, 77%, 52%);
 }
 
 .suv button {
-  background-color: hsl(0, 0%, 95%);
+  background-color:rgb(242, 242, 242);
   color: hsl(184, 100%, 22%);
 }
 
 .luxury button {
-  background-color: hsl(0, 0%, 95%);
+  background-color:rgb(242, 242, 242);
   color: hsl(179, 100%, 13%);
 }
 
 button:hover {
   background-color: transparent;
-  color: hsl(0, 0%, 95%);
+  color:rgb(242, 242, 242);
 }
 
 button:active {
