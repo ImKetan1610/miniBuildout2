@@ -1,209 +1,215 @@
 * {
-    /* padding: 0px;
-      margin: 0px;
-      box-sizing: border-box; */
-  }
-  
-  @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
-  
-  :root {
-    /*Primary Colors*/
-    --Lightred: hsl(0, 100%, 67%);
-    --Orangeyyellow: hsl(39, 100%, 56%);
-    --Greenteal: hsl(166, 100%, 37%);
-    --Cobaltblue: hsl(234, 85%, 45%);
-    /*Gradients*/
-    --Lightslateblue: hsl(252, 100%, 67%); /*background*/
-    --Lightroyalblue: hsl(241, 81%, 54%); /*background*/
-    --Violetblue: hsla(256, 72%, 46%, 1); /*circle*/
-    --Persianblue: hsla(241, 72%, 46%, 0); /*circle*/
-    /*Neutrals*/
-    --White: hsl(0, 0%, 100%);
-    --Paleblue: hsl(221, 100%, 96%);
-    --Lightlavender: hsl(241, 100%, 89%);
-    --Darkgrayblue: hsl(224, 30%, 27%);
-  }
-  
+  /* padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /*Primary Colors*/
+  --Lightred: hsl(0, 100%, 67%);
+  --Orangeyyellow: hsl(39, 100%, 56%);
+  --Greenteal: hsl(166, 100%, 37%);
+  --Cobaltblue: hsl(234, 85%, 45%);
+  /*Gradients*/
+  --Lightslateblue: hsl(252, 100%, 67%); /*background*/
+  --Lightroyalblue: hsl(241, 81%, 54%); /*background*/
+  --Violetblue: hsla(256, 72%, 46%, 1); /*circle*/
+  --Persianblue: hsla(241, 72%, 46%, 0); /*circle*/
+  /*Neutrals*/
+  --White: hsl(0, 0%, 100%);
+  --Paleblue: hsl(221, 100%, 96%);
+  --Lightlavender: hsl(241, 100%, 89%);
+  --Darkgrayblue: hsl(224, 30%, 27%);
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  min-height: 40vh;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 20px;
+  font-family: "Hanken Grotesk", sans-serif;
+  width: 600px;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  flex: 1;
+  padding: 5% 5%;
+  background-image: linear-gradient(
+    var(--Lightslateblue),
+    var(--Lightroyalblue)
+  );
+  /* justify-content: center; */
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  font-size: 1.5rem;
+  opacity: 75%;
+  font-size: medium;
+}
+
+.score {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 0.7),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+
+.score-header {
+  color: var(--White);
+  font-size: 4.5rem;
+  margin-top: 20px;
+}
+
+.score-text {
+  color: var(--Paleblue);
+  margin-top: -3.5rem;
+  opacity: 50%;
+}
+
+.conclusion {
+  font-family: "Hanken Grotesk", sans-serif;
+  color: var(--Paleblue);
+  display: flex;
+  text-align: center;
+  width: 80%;
+  font-size: small;
+  opacity: 75%;
+  margin-top: 5px;
+}
+
+/* second card */
+.second {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: start;
+  padding: 5% 5%;
+  color: var(--White);
+  background-color: var(--White);
+  /* border-radius: 15px; */
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.Summary-header {
+  color: black;
+}
+
+.summary-div {
+  width: 90%;
+  display: flex;
+  /* background-color: antiquewhite; */
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.summary-div-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.summary-div-right > img {
+  margin-right: 6px;
+}
+
+.div1 {
+  background-color: hsla(0, 100%, 67%, 0.1);
+  color: var(--Lightred);
+}
+
+.div2 {
+  background-color: hsl(39, 100%, 56%, 0.1);
+  color: var(--Orangeyyellow);
+}
+
+.div3 {
+  background-color: hsl(166, 100%, 37%, 0.1);
+  color: var(--Greenteal);
+}
+
+.div4 {
+  background-color: hsl(234, 85%, 45%, 0.1);
+  color: var(--Cobaltblue);
+}
+
+.marks {
+  color: black;
+  font-weight: bold;
+}
+
+.marks > span {
+  color: #000000;
+  /* font-weight: normal; */
+  opacity: 50%;
+}
+
+.btn {
+  width: 100%;
+  border-style: none;
+  color: white;
+  background-color: var(--Darkgrayblue);
+  border-radius: 30px;
+  color: var(--White);
+  /* font-size: 12px; */
+  margin-top: 18px;
+  font-weight: 500;
+  padding: 15px 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(28, 26, 138);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+/* footer */
+.attribution {
+  margin-top: 25vh;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
   .main {
-    display: flex;
-    flex-direction: row;
-    min-height: 40vh;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 20px;
-    font-family: "Hanken Grotesk", sans-serif;
-    width: 600px;
-    margin: auto;
-    margin-top: 10vh;
-  }
-  
-  .first {
-    display: flex;
     flex-direction: column;
-    border-radius: 15px;
-    flex: 1;
-    padding: 5% 5%;
-    background-image: linear-gradient(
-      var(--Lightslateblue),
-      var(--Lightroyalblue)
-    );
-    /* justify-content: center; */
-    align-items: center;
-    color: white;
-  }
-  
-  h1 {
-    font-size: 1.5rem;
-    opacity: 75%;
-    font-size: medium;
-  }
-  
-  .score {
-    display: flex;
-    margin-top: 10px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    background-image: linear-gradient(
-      180deg,
-      hsla(256, 72%, 46%, 0.7),
-      hsla(241, 72%, 46%, 0)
-    );
-  }
-  
-  .score-header {
-    color: var(--White);
-    font-size: 4.5rem;
-    margin-top: 20px;
-  }
-  
-  .score-text {
-    color: var(--Paleblue);
-    margin-top: -3.5rem;
-    opacity: 50%;
-  }
-  
-  .conclusion {
-    font-family: "Hanken Grotesk", sans-serif;
-    color: var(--Paleblue);
-    display: flex;
-    text-align: center;
-    width: 80%;
-    font-size: small;
-    opacity: 75%;
-    margin-top: 5px;
-  }
-  
-  /* second card */
-  .second {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: start;
-    padding: 5% 5%;
-    color: var(--White);
-    background-color: var(--White);
-    /* border-radius: 15px; */
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
-  
-  .Summary-header {
-    color: black;
-  }
-  
-  .summary-div {
     width: 90%;
-    display: flex;
-    /* background-color: antiquewhite; */
-    justify-content: space-between;
-    align-items: center;
-    margin: 5px 0px;
-    padding: 3px 10px;
-    border-radius: 5px;
   }
-  
-  .summary-div-right {
-    display: flex;
-    flex-direction: row;
+
+  .first {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
   }
-  
-  .summary-div-right > img {
-    margin-right: 6px;
+
+  .second {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
-  
-  .div1 {
-    background-color: hsla(0, 100%, 67%, 0.1);
-    color: var(--Lightred);
-  }
-  
-  .div2 {
-    background-color: hsl(39, 100%, 56%, 0.1);
-    color: var(--Orangeyyellow);
-  }
-  
-  .div3 {
-    background-color: hsl(166, 100%, 37%, 0.1);
-    color: var(--Greenteal);
-  }
-  
-  .div4 {
-    background-color: hsl(234, 85%, 45%, 0.1);
-    color: var(--Cobaltblue);
-  }
-  
-  .marks {
-    color: black;
-    font-weight: bold;
-  }
-  
-  .marks > span {
-    color: #000000;
-    /* font-weight: normal; */
-    opacity: 50%;
-  }
-  
-  .btn {
-    width: 100%;
-    background-color: rgb(26, 6, 47);
-    border-style: none;
-    color: white;
-    background-color: var(--Darkgrayblue);
-    border-radius: 30px;
-    color: var(--White);
-    /* font-size: 12px; */
-    margin-top: 18px;
-    font-weight: 500;
-    padding: 15px 15px;
-    cursor: pointer;
-  }
-  
-  /* footer */
-  .attribution {
-    margin-top: 25vh;
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
-  
-  @media screen and (max-width: 375px) {
-    .main {
-      flex-direction: column;
-      width: 90%;
-    }
-  
-    .first {
-      border-top-right-radius: 0px;
-      border-top-left-radius: 0px;
-    }
-  
-    .second {
-      border-bottom-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-    }
-  }
-  
+}
