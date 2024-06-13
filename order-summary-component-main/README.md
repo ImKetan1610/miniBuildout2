@@ -67,3 +67,4 @@ These tests ensure that the correct background image is displayed based on the v
     
     -   **Test**: Verifies that the correct background image is used for mobile view.
     -   **Details**: The test sets the viewport to a mobile size (375x667) and checks that the `body` element's background image includes `pattern-background-mobile.svg`.
+    
