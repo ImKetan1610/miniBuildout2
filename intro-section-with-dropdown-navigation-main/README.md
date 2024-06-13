@@ -88,10 +88,6 @@ The test suite is designed to ensure the functionality and responsiveness of the
 
 ### Footer Content
 
-1.  **Display Footer
-
-### Footer Content (continued)
-
 1.  **Display Footer Attribution with Correct Links**
     -   **Objective**: Ensure the footer attribution contains the correct links.
     -   **Checks**:
