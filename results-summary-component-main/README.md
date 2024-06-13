@@ -23,7 +23,7 @@ Your users should be able to:
 
 ## Test Suite Overview
 
-The test suite is defined in `cypress/integration/responsive_layout_spec.js` (or similar file). Below is a breakdown of the individual tests included:
+The test suite is defined in `cypress/e2e/spec.cy.js` (or similar file). Below is a breakdown of the individual tests included:
 
 ### 1. Responsive Layout for Desktop
 
