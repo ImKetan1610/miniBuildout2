@@ -1,6 +1,10 @@
+// CRIO_SOLUTION_AND_STUB_ONLY_START_MODULE_ONE
+// CRIO_SOLUTION_AND_STUB_ONLY_END_MODULE_ONE
+
 describe("Product Preview Card Component", () => {
   beforeEach(() => {
-    cy.visit("../../index.html"); // Update this path to the correct location of your HTML file
+    // Visits the page before each test
+    cy.visit("http://localhost:3000/"); // Replace with your actual URL
   });
 
   it("should display the product image", () => {
@@ -42,7 +46,7 @@ describe("Product Preview Card Component", () => {
       "have.css",
       "background-color",
       "rgb(60, 128, 103)"
-    ); // Replace with the correct RGB value for the hover state
+    );
   });
 
   it('should navigate to Crio website when "Challenge by Crio" is clicked', () => {
@@ -50,10 +54,4 @@ describe("Product Preview Card Component", () => {
       .first()
       .should("have.attr", "href", "https://www.crio.do");
   });
-
-  // it('should navigate to GitHub profile when "Coded by Ketan" is clicked', () => {
-  //   cy.get("footer .attribution a")
-  //     .last()
-  //     .should("have.attr", "href", "https://www.github.com/imketan1610");
-  // });
 });
