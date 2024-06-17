@@ -4,7 +4,7 @@
 describe("Product Preview Card Component", () => {
   beforeEach(() => {
     // Visits the page before each test
-    cy.visit("http://localhost:3000/"); // Replace with your actual URL
+    cy.visit("http://localhost:5500/"); // Replace with your actual URL
   });
 
   it("should display the product image", () => {
