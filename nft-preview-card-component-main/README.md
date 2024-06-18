@@ -2,6 +2,8 @@
 
 ![Design preview for the NFT preview card component coding challenge](./assets/desktop-preview.jpg)
 
+![Testcases preview for the NFT preview card component coding challenge](./assets/passed.jpeg)
+
 ## Welcome! 👋
 
 ### The challenge
