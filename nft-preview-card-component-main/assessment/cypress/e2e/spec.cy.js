@@ -1,6 +1,9 @@
-describe('NFT Preview Card Component', () => {
+// CRIO_SOLUTION_AND_STUB_ONLY_START_MODULE_ONE
+// CRIO_SOLUTION_AND_STUB_ONLY_END_MODULE_ONE
+describe('XNFT-Preview-Card-Component', () => {
   beforeEach(() => {
-    cy.visit('../../index.html'); // Adjust the path to your HTML file
+    // Visits the page before each test
+    cy.visit('http://localhost:5500/'); // Replace with your actual URL
   });
 
   it('should load the page and display the main elements', () => {
