@@ -1,6 +1,8 @@
+// CRIO_SOLUTION_AND_STUB_ONLY_START_MODULE_ONE
+// CRIO_SOLUTION_AND_STUB_ONLY_END_MODULE_ONE
 describe('3-column Preview Card Component', () => {
   beforeEach(() => {
-    cy.visit('../../index.html'); // Adjust the path to your HTML file
+    cy.visit('http://127.0.0.1:5500/'); // Adjust the path to your HTML file
   });
 
   it('should load the page and display the main elements', () => {
