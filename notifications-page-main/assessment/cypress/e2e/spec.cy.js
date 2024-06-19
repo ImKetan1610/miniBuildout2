@@ -1,6 +1,8 @@
+// CRIO_SOLUTION_AND_STUB_ONLY_START_MODULE_ONE
+// CRIO_SOLUTION_AND_STUB_ONLY_END_MODULE_ONE
 describe('Notifications Page', () => {
   beforeEach(() => {
-    cy.visit('../../index.html'); // Adjust the path to your HTML file
+    cy.visit('http://localhost:5500/'); // Adjust the path to your HTML file
   });
 
   it('should display the main elements', () => {
