@@ -1,3 +1,4 @@
+/* CRIO_SOLUTION_START_MODULE_ONE */
 const spanEmail = document.querySelector(".success-text");
 let email = localStorage.getItem("email");
 spanEmail.innerHTML = `<p>A confirmation email has been sent to <span id="span-email-placeholder">${email}</span>. Please open it and click the button inside to confirm your subscription.</p>`;
@@ -6,3 +7,4 @@ spanEmail.innerHTML = `<p>A confirmation email has been sent to <span id="span-e
 function goToIndex() {
   window.location.href = "index.html";
 }
+/* CRIO_SOLUTION_END_MODULE_ONE */

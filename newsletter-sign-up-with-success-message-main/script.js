@@ -1,3 +1,4 @@
+/* CRIO_SOLUTION_START_MODULE_ONE */
 const form = document.getElementById("form");
 const emailInput = document.getElementById("email");
 const subBtn = document.querySelector(".sub-btn");
@@ -25,3 +26,4 @@ function validateEmail(email) {
   const regex = /^\S+@\S+\.\S+$/;
   return regex.test(email);
 }
+/* CRIO_SOLUTION_END_MODULE_ONE */
