@@ -1,0 +1,18 @@
+{
+  "name": "xage_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.3.1",
+    "dotenv": "^16.3.1",
+    "cypress-real-events": "^1.12.0",
+    "serve": "^14.2.3"
+  }
+}
