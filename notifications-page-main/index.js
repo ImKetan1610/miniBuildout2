@@ -1,3 +1,4 @@
+/* CRIO_SOLUTION_START_MODULE_ONE */
 console.log(data);
 
 let main = document.getElementById("list");
@@ -42,3 +43,4 @@ data.map((ele, index) => {
 
   main.append(li);
 });
+/* CRIO_SOLUTION_END_MODULE_ONE */

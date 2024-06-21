@@ -1,3 +1,4 @@
+/* CRIO_SOLUTION_START_MODULE_ONE */
 data = [
   {
     img: "../assets/images/avatar-mark-webber.webp",
@@ -78,3 +79,4 @@ data = [
     },
   },
 ];
+/* CRIO_SOLUTION_END_MODULE_ONE */

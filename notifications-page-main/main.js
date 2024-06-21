@@ -1,3 +1,4 @@
+/* CRIO_SOLUTION_START_MODULE_ONE */
 const notificationsCounter = document.querySelector(".notifications-counter");
 const markAllButton = document.querySelector(".mark-all-button");
 const notificationDots = document.querySelectorAll(".notification-dot");
@@ -34,3 +35,4 @@ let private = document.getElementById("private")
 private.addEventListener("click",()=>{
   document.querySelector(".notification-text-private-message").style.display = "block"
 })
+/* CRIO_SOLUTION_END_MODULE_ONE */
