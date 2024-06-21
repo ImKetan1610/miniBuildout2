@@ -1,3 +1,4 @@
+/* CRIO_SOLUTION_START_MODULE_ONE */
 const dayIn = document.getElementById("dayIn");
 const monthIn = document.getElementById("monthIn");
 const yearIn = document.getElementById("yearIn");
@@ -129,3 +130,4 @@ function showMessage(elem, msg, border) {
   elem.style.border = border;
   elem.nextElementSibling.innerText = msg;
 }
+/* CRIO_SOLUTION_END_MODULE_ONE */

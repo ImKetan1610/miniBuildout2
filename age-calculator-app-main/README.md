@@ -1,8 +1,8 @@
-# Frontend Mentor - Age calculator app
+# Age calculator app
 
-![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Age calculator app coding challenge](./assets/desktop-preview.jpg)
 
-![Testcases preview for the Age calculator app coding challenge](./passedTestCases/testcases.jpeg)
+![Testcases preview for the Age calculator app coding challenge](./assets/testcases.jpeg)
 
 ## Welcome! 👋
 
@@ -28,7 +28,7 @@ Your users should be able to:
 
 ## Cypress Tests
 
-The tests are defined in the `cypress/e2e/spec.cy.js` file.
+The tests are defined in the `assessment/cypress/e2e/spec.cy.js` file.
 
 ## Test Cases Overview
 
