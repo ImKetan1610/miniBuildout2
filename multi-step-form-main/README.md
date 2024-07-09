@@ -1,8 +1,8 @@
 # Multi-step form
 
-![Design preview for the Multi-step form coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Multi-step form coding challenge](./assets/desktop-preview.jpg)
 
-![TestCases preview for the Multi-step form coding challenge](./passedTestCases/passedTests.jpeg)
+![TestCases preview for the Multi-step form coding challenge](./assets/passedTestCases/passedTests.jpeg)
 
 ## Welcome! 👋
 
@@ -11,8 +11,6 @@
 ## The challenge
 
 Your challenge is to build out this multi-step form and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 Your users should be able to:
 

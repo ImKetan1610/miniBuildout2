@@ -1,3 +1,5 @@
+/* CRIO_SOLUTION_START_MODULE_ONE */
+
 // declare variables and store elements
 const sidebarStep = document.querySelectorAll(".num");
 const formStep = document.querySelectorAll(".step");
@@ -264,3 +266,5 @@ changePlanBtn.addEventListener("click", () => {
   stepNum = 0;
   showStep(stepNum);
 });
+
+/* CRIO_SOLUTION_START_MODULE_ONE */

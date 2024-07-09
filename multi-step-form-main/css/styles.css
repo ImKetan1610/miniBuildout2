@@ -1,3 +1,4 @@
+/* CRIO_SOLUTION_START_MODULE_ONE */
 :root {
   /* Primary color */
   --Marine-blue: hsl(213, 96%, 18%);
@@ -194,7 +195,7 @@ html {
   border-radius: 10px;
   grid-column-start: 1;
   grid-column-end: 2;
-  background: url("./assets/images/bg-sidebar-desktop.svg");
+  background: url("../assets/images/bg-sidebar-desktop.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -230,7 +231,7 @@ html {
 @media (max-width: 768px) {
   .sidebar {
     border-radius: 0;
-    background-image: url("./assets/images/bg-sidebar-mobile.svg");
+    background-image: url("../assets/images/bg-sidebar-mobile.svg");
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -672,3 +673,4 @@ form {
   max-width: 500px;
   margin: 0 auto;
 }
+/* CRIO_SOLUTION_END_MODULE_ONE */
