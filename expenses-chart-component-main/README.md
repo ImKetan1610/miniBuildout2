@@ -1,8 +1,8 @@
 # Frontend Mentor - Expenses chart component
 
-![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Expenses chart component coding challenge](./assets/desktop-preview.jpg)
 
-![Testcases preview for the Expenses chart component coding challenge](./passedTestCases/testCases.jpeg)
+![Testcases preview for the Expenses chart component coding challenge](./assets/passedTestCases/testCases.jpeg)
 
 ## Welcome! 👋
 

@@ -1,3 +1,5 @@
+
+// CRIO_SOLUTION_START_MODULE_ONE
 // let data;
 // fetch("./data.json")
 //   .then((response) => response.json())
@@ -61,3 +63,4 @@ window.addEventListener("DOMContentLoaded", () => {
       barsContainerElem.innerHTML = renderBars(data);
     });
 });
+// CRIO_SOLUTION_END_MODULE_ONE
