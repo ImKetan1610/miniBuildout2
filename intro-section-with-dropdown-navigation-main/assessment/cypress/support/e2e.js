@@ -1,3 +1,6 @@
+// CRIO_SOLUTION_AND_STUB_ONLY_START_MODULE_ONE
+// CRIO_SOLUTION_AND_STUB_ONLY_END_MODULE_ONE
+
 // ***********************************************************
 // This example support/e2e.js is processed and
 // loaded automatically before your test files.

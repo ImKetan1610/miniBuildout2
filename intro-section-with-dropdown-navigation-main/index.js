@@ -1,3 +1,5 @@
+/* CRIO_SOLUTION_START_MODULE_ONE */
+
 console.log("hey this message is coming from index.js");
 const menu = document.querySelector(".menu");
 const dropdown = document.querySelectorAll(".dropdown");
@@ -11,3 +13,4 @@ dropdown.forEach(function (item) {
     item.parentElement.classList.toggle("link-open");
   });
 });
+/* CRIO_SOLUTION_END_MODULE_ONE */

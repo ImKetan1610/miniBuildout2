@@ -1,3 +1,6 @@
+// CRIO_SOLUTION_AND_STUB_ONLY_START_MODULE_ONE
+// CRIO_SOLUTION_AND_STUB_ONLY_END_MODULE_ONE
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
